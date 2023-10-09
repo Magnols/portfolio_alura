@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="css/contato.css" />
+    <link rel="shortcut icon" href="img/ico2.ico" type="image/x-icon">
+    <title>MP CodeMasters</title>
+</head>
+
+<body>
+    <header class="nav">
+        <a href="index.html" class="link-logo">
+            <img src=" img/logo2.png " alt="Logo MP CodeMasters" width="50px" />
+        </a>
+        <nav class="menu ">
+            <ul>
+                <li><a href="sobremim.html ">Sobre mim</a>
+                </li>
+                <li><a href="portfolio.html ">Portfólio</a></li>
+                <li><a href="contato.html ">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form">
+        <h1>Fale com a MP CodeMasters através desta página</h1>
+        <h2>Para mandar uma mensagem para MP CodeMasters preencha os campos abaixo e clica em anviar</h2>
+        <form action="index.html" class="contact-form margin-horizontal-20px">
+            <div>
+                <label>Nome:</label><input type="text" name="Nome" maxlength="50" />
+            </div>
+            <div>
+                <label>Sexo:</label>
+                <input type="radio" name="Sexo" />
+                <span>Feminino</span>
+                <input type="radio" name="Sexo" />
+                <span>Masculino</span>
+            </div>
+            <div>
+                <label>E-mail:</label><input type="text" name="Email" maxlength="50" />
+            </div>
+            <div>
+                <label>Aonde você nos conheceu?</label>
+                <select name="Conheceu">
+                    <option selected>Youtube</option>
+                    <option>Google</option>
+                    <option>Amigos</option>
+                    <option>Outros</option>
+                </select>
+            </div>
+            <div>
+                <label>Como podemos te ajudar? </label>
+                <textarea name="Comentario" rows="4" cols="50"></textarea>
+            </div>
+            <div>
+                <input type="checkbox" name="Aceite" value="Aceite" />
+                <span>Aceito receber novidades da Devaria</span>
+            </div>
+            <div>
+                <input type="submit" name="Enviar" value="Enviar" />
+                <input type="reset" name="Limpar" value="Limpar" />
+            </div>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <section>
+            <p>Acesse minhas redes:</p>
+        </section>
+
+        <section class="links">
+            <div class="redsociais">
+                <a href=" https://github.com/Magnols"><img src="img/1.png ">GitHub</a>
+            </div>
+            <div class="redsociais ">
+                <a href="https://instagram.com/magno_mpsilva?igshid=MzMyNGUyNmU2YQ=="><img src="img/2.png ">Instagran</a>
+            </div>
+            <div class="redsociais ">
+                <a href="https://www.linkedin.com/in/magno-silva-4b7711261/"><img src="img/3.png ">Linkedin</a>
+            </div>
+        </section>
+
+        <section class="marca ">
+            <img src="img/logo2.png ">
+            <p>© 2023 MP CodeMasters.</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>
