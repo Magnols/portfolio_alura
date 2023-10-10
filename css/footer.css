@@ -1,0 +1,60 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+    border-top: 1px solid #25cbd3;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 100;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.redsociais {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #25cbd3;
+    border-radius: 8px;
+    width: 145px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: background-color 1s;
+}
+
+.redsociais img {
+    width: 10%;
+}
+
+.redsociais a {
+    color: #25cbd3;
+    text-decoration: none;
+}
+
+.redsociais:hover {
+    background-color: rgba(37, 203, 211, 0.5);
+}
+
+.redsociais:hover a {
+    opacity: 0.7;
+}
+
+.marca {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #3bd42d;
+}
+
+.marca img {
+    width: 5%;
+}

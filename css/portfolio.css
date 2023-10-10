@@ -1,0 +1,225 @@
+    /* Estilo dapágina Portfolio*/
+
+.pagina {
+    display: block;
+    align-items: center;
+    margin: 1%;
+    gap: 25px;
+}
+
+.projeto {
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    gap: 25px;
+}
+
+.logica {
+    position: relative;
+    width: 395px;
+    height: 295px;
+    border: 1px solid #25cbd3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.logica img {
+    width: 393px;
+    height: 272px;
+    border: 1px solid #0a0a0a;
+    border-radius: 8px;
+}
+
+.logica figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+.logica:hover figcaption {
+    opacity: 1;
+}
+
+a.link {
+    color: #ffffff;
+}
+
+.pc {
+    position: relative;
+    width: 395px;
+    height: 295px;
+    border: 1px solid #25cbd3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.pc img {
+    width: 394px;
+    height: 250px;
+}
+
+.pc figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 30% 50% 0% 1%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+.pc:hover figcaption {
+    opacity: 1;
+}
+
+.video {
+    position: relative;
+    width: 395px;
+    height: 295px;
+    border: 1px solid #25cbd3;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video img {
+    width: 394px;
+    height: 230px;
+}
+
+.video figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 30% 50% 0% 1%;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+.video:hover figcaption {
+    opacity: 1;
+}
+
+.pagina h1 {
+    margin: 0% 0% 0% 1%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #25cbd3;
+}
+
+.pagina h2 {
+    margin: 0% 0% 0% 35%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #3bd42d;
+}
+
+.pagina h3 {
+    margin: 0% 0% 0% 40%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #3bd42d;
+}
+
+.pagina p {
+    margin: 0% 0% 0% 30%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.0em;
+    font-weight: 600;
+    color: #7121cc;
+}
+
+@media screen and (max-width: 992px) {
+    .projeto {
+        gap: 5px;
+    }
+    .logica {
+        margin: 0% 0% 0% 1%;
+        width: 220px;
+        height: 220px;
+        border: 1px solid #25cbd3;
+        border-radius: 8px;
+    }
+    .logica img {
+        width: 218px;
+        height: 197px;
+        border: 1px solid #0a0a0a;
+        border-radius: 8px;
+    }
+    .pc {
+        width: 150px;
+        height: 250px;
+        border: 1px solid #25cbd3;
+        border-radius: 8px;
+    }
+    .pc img {
+        width: 148px;
+        height: 200px;
+    }
+    .video {
+        width: 150px;
+        height: 250px;
+        border: 1px solid #25cbd3;
+        border-radius: 8px;
+    }
+    .video img {
+        width: 148px;
+        height: 200px;
+    }
+    .pagina h1 {
+        margin: 0%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.0em;
+        font-weight: 600;
+        color: #25cbd3;
+    }
+    .pagina h2 {
+        margin: 0%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.8em;
+        font-weight: 600;
+        color: #3bd42d;
+    }
+    .pagina h3 {
+        margin: 0%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.7em;
+        font-weight: 600;
+        color: #3bd42d;
+    }
+    .pagina p {
+        margin: 0%;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 0.5em;
+        font-weight: 600;
+        color: #7121cc;
+    }

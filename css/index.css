@@ -1,0 +1,61 @@
+/* Estilo dapágina index*/
+
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.texto {
+    text-align: center;
+}
+
+.conteudo p {
+    margin: 1% 0% 0% 10%;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+main h3.referencia {
+    margin: 0% 0% 1% 0%;
+    font-size: 1.2em;
+    color: #25cbd3;
+}
+
+figure.foto-perfil {
+    position: relative;
+}
+
+figure.foto-perfil img {
+    width: 100%;
+    height: 100%;
+}
+
+figure.foto-perfil figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 10px;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-perfil:hover figcaption {
+    opacity: 1;
+}
+
+a.link {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+    .corpo {
+        flex-direction: column;
+    }
+}
